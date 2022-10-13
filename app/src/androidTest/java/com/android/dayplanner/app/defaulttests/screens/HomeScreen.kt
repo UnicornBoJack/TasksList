@@ -1,4 +1,4 @@
-package com.android.dayplanner.app.screens
+package com.android.dayplanner.app.defaulttests.screens
 
 import android.view.View
 import com.android.dayplanner.app.R
@@ -25,7 +25,7 @@ class HomeScreen : Screen<HomeScreen>() {
     private val deleteAllTitle = KView { withText(R.string.delete_all_title) }
     private val deleteAllDescription = KView { withText(R.string.delete_all_description) }
 
-    private val recyclerView = KRecyclerView({
+    private val recyclerView = KRecyclerView(builder = {
         withId(R.id.recyclerView)
     }, itemTypeBuilder = {
         itemType(::TaskItem)
