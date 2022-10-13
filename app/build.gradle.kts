@@ -44,7 +44,8 @@ android {
 }
 
 dependencies {
-    val roomVersion = "2.3.0"
+    implementation("androidx.test.uiautomator:uiautomator:2.2.0")
+    val roomVersion = "2.4.0"
     val kotlinVersion = "1.5.30"
 
     implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")

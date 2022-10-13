@@ -1,8 +1,8 @@
-package com.android.dayplanner.app.screens
+package com.android.dayplanner.app.defaulttests.screens
 
 import androidx.test.espresso.Espresso
 import com.android.dayplanner.app.R
-import com.android.dayplanner.app.TaskPlannerTests
+import com.android.dayplanner.app.defaulttests.tests.TaskPlannerTests
 import io.github.kakaocup.kakao.edit.KEditText
 import io.github.kakaocup.kakao.screen.Screen
 import io.github.kakaocup.kakao.text.KButton

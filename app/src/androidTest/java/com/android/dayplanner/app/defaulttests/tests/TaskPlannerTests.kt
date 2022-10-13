@@ -1,8 +1,9 @@
-package com.android.dayplanner.app
+package com.android.dayplanner.app.defaulttests.tests
 
 import androidx.test.espresso.Espresso.openContextualActionModeOverflowMenu
-import com.android.dayplanner.app.screens.HomeScreen
-import com.android.dayplanner.app.screens.NewTaskScreen
+import com.android.dayplanner.app.defaulttests.screens.BaseUIClass
+import com.android.dayplanner.app.defaulttests.screens.HomeScreen
+import com.android.dayplanner.app.defaulttests.screens.NewTaskScreen
 import io.github.kakaocup.kakao.screen.Screen.Companion.onScreen
 import org.junit.Test
 
